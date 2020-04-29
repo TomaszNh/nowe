@@ -4,32 +4,36 @@
     width: 1000px;
          }
        .header{
-        padding-top: 20px;
-        border: solid;
-      background-color:   #E6E6FA;
-      text-align: center;
-      min-height: 100px;
-       }
-.logo{
-  width:170px;
-  height: 100px;
-  float: left;
-}
+        border-bottom: solid;
+        min-height: 250px;
+      background-image: url(background.jpg);
+      background-size: cover;
+    }
+    #title{
+      padding-top: 100px;
+      font-size: 30px;
+      text-align:center;
+      text-shadow:2px 2px 2px black;
+      letter-spacing: 2px;
+      word-spacing: 5px;
+      color:  #6495ED;
+    }
        .nav{
         float: left;
-        border: solid;
         min-height: 600px;
-        background-color:#E6E6FA ;
         width: 148px;
        padding: 10px;
-       }
+       background: linear-gradient(to top,#E6E6FA , gray)
+   
+     }
        .content{
-        width: 787px;
+        width: 792px;
         float: left;
-        background-color: #778899;
+        background-color: lightgray;
         padding: 20px;
       font-style: italic;
       font-size: 1.2em;
+      background: linear-gradient(to bottom, lightgray, gray)
       }
       #head1{
         text-align: center;
@@ -47,11 +51,11 @@
         text-align: center;
       }
        .footer{
-        float: right;
-        width: 806px;
+        width: 812px;
         clear: both;
         background-color:#696969;
         padding: 10px;
         text-align: center;
         color: white;
+        float: right;
       }
