@@ -1,13 +1,22 @@
+body{
+  background-image: url(tlo2.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: center;
+  background-size: cover;
+}
+
  .container{
       margin-left: auto;
       margin-right: auto;
     width: 1000px;
          }
        .header{
-        border-bottom: 2px dashed grey;
         min-height: 250px;
-      background-image: url(background.jpg);
+      background-image: url(header1.jpg);
       background-size: cover;
+      background-position: bottom;
+      border-style: groove ridge inset outset grey;
     }
     #title{
       padding-top: 40px;
@@ -26,8 +35,8 @@
         float: left;
         width: 148px;
         padding: 10px;
-       background: linear-gradient(to top,lightgray, gray);
-       height: 1000px;
+       background: linear-gradient(to top,gray, white);
+       height: 500px;
     
      }
 
@@ -36,9 +45,8 @@
       padding: 0;
       margin: 0;
       list-style-type: none;
-      height: 500px;
       line-height: 300%;
-      position: fixed;
+  
 
       
 
@@ -57,12 +65,12 @@
      }
      ol>li:hover
      {
-      background-color: #696969;
+      background-color: white;
 
      }
      ol>li:hover>a
      {
-      color:#DCDCDC;
+      color:black;
      }
      ol>li>ul
      {
@@ -79,7 +87,7 @@
      }
      ol>li>ul>li
      {
-      background-color:   #696969;
+      background-color:  white;
       position: relative;
       left: 100px;
       z-index: 100;
@@ -92,7 +100,7 @@
     
      ol>li>ul>li:hover>a
      {
-      color: white;
+      color: black;
      }
 
        .content{
@@ -102,7 +110,7 @@
         padding: 20px;
       font-size: 1.2em;
       font-family: 'Open Sans Condensed', sans-serif;
-      background: linear-gradient(to bottom, lightgray, gray)
+      background: linear-gradient(to bottom,lightgray, gray);
 
       }
       #head1{
@@ -110,12 +118,27 @@
       }
       #head2{
         text-align: center;
+        text-decoration: underline;
+      }
+      .article2
+      {
+        white-space: pre-line;
+        text-align: center;
       }
       #Tomasz{
-        text-align: center;
+        text-align: justify;
+      }
+      #tomek{
+        float: left;
+        border: solid;
       }
       #Artur{
-        text-align: center;
+        text-align: justify;
+      }
+      #arturek
+      {
+        float: left;
+        border: solid;
       }
       #head3{
         text-align: center;
@@ -134,4 +157,8 @@
         text-align: center;
         color: white;
         float: right;
+      }
+      fieldset
+      {
+        white-space: pre-line;
       }
