@@ -68,23 +68,27 @@ Język Html to język opisu stron internetowych. Opisu… Ale co to dokładnie z
 <hr>
 <h4 id="head5">Galeria zdjęć</h4><img src="skok1.jpg"><img src="skok2.jpg"><img src="skok3.jpg">
 <hr>
+<div class="contact_form">
+  <address id="kontakt">
 <h4 id="head6">Kontakt</h4>
-<address id="kontakt">
   SkydivePomerania.pl
   <br>Jagiellońska 1
   <br>71-800 Szczecin
   <br>tel: +48 600 800 900
   <br>
-  <h5>Wyślij nam wiadomość</h5>
   </address>
-  <fieldset>
- <legend>Dane personalne</legend>
- <label>Imię <input type="text"></label>
- <label>Nazwisko <input type="text"></label>
- <label>Adres email<input type="email"></label>
+<fieldset>
+<legend>Dane personalne</legend><form action="form.php">
+<label>Imię<input name="first_name" type="text"></label>
+<label>Nazwisko<input name="surname" type="text"></label>
+<label>Adres email<input name="email_adress" type="email"></label>
+<input type="submit"></form>
 </fieldset>
-
-  <textarea cols="50" rows="7">Tu wpisz swoje zapytanie...</textarea>
+<form  id="message" action="form.php">
+<textarea name="message" cols="40" rows="9">Tu wpisz swoją wiadomość do nas...</textarea>
+<br>
+<input id ="submit" type="submit"></form>
+</div>
 
 </div>
     <!--footer-->

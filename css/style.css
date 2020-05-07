@@ -108,7 +108,7 @@ body{
         float: right;
         background-color: lightgray;
         padding: 20px;
-      font-size: 1.2em;
+      font-size: 20px;
       font-family: 'Open Sans Condensed', sans-serif;
       background: linear-gradient(to bottom,lightgray, gray);
 
@@ -161,4 +161,23 @@ body{
       fieldset
       {
         white-space: pre-line;
+        text-align: right;
+        width: 250px;
+        float: left;
+        margin-top: 20px;
+        margin-left: 20px;
       }
+      #message
+      {
+        float: right;
+        margin-top: 40px;
+      }
+      #submit
+      {
+        float: bottom;
+      }
+      #kontakt
+      {
+        float:left;
+      }
+      
