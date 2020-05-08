@@ -116,10 +116,50 @@ body{
       #head1{
         text-align: center;
       }
+      table{
+        width: 600px;
+        margin-left: 100px;
+        margin-right: 100px;
+        border:2px solid black;
+        background-color: lightgray;
+        border-collapse: collapse;
+        table-layout: fixed;
+      }
+      table>caption{
+        background-color: white;
+        border:2px solid black;
+        font-weight: bolder;
+      }
+        table>tbody>tr>td{
+          border-bottom: solid black;
+        }
+        table>tbody>tr>th{
+          border-bottom: solid black;
+        }
+        .cena{
+          padding-left: 80px;
+        }
+      .tandem
+      {
+      white-space: pre-wrap;
+      text-align: center;
+      }
+
+      .skok_w_tandemie
+      {
+      font-weight:bold;
+      }
+      .underline
+      {
+        text-decoration: underline;
+
+      }
+      
       #head2{
         text-align: center;
         text-decoration: underline;
       }
+
       .article2
       {
         white-space: pre-line;
@@ -142,6 +182,16 @@ body{
       }
       #head3{
         text-align: center;
+        text-decoration: underline;
+      }
+      .aff
+      {
+        white-space: pre-wrap;
+      }
+      .bold
+      {
+        text-decoration: underline;
+        font-weight: bold;
       }
       #head4{
         text-align: center;
